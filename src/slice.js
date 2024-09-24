@@ -1,19 +1,26 @@
 import { createSlice } from "@reduxjs/toolkit";
+import arr from "./components/warehouses";
 
 export const slice = createSlice({
-  name: "counterSlice",
+  name: "warehouse",
   initialState: {
-    counter: 0,
+    array: [...arr],
   },
   reducers: {
-    INCREMENT: function (state, action) {
-      state.counter = state.counter + 1;
-    },
-    DECREMENT: function (state, action) {
-      state.counter = state.counter - 1;
+    UPDATE: function (state, action) {
+ 
+      state.counter = state.array.map((ele)=>{
+        if(action.payload.id== ele.id){
+          let attri=action.payload.e.target.name;
+          console.log(attri)
+          ele[attri]=action.payload.e.target.value;
+          console.log(action.payload.e.target.value);
+        }
+        return ele;
+      });
     },
   },
 });
 
-export const { INCREMENT, DECREMENT } = slice.actions;
-export const counterReducer = slice.reducer;
+export const { UPDATE } = slice.actions;
+export const wareH = slice.reducer;

@@ -1,11 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { counterReducer } from "./slice";
-import { todoReducer } from "./todoSlice";
+import { wareH } from "./slice";
 
-const store = configureStore({
+
+export const store = configureStore({
   reducer: {
-    baburav: counterReducer,
-    shyam: todoReducer,
+    house: wareH
   },
 });
-export default store;

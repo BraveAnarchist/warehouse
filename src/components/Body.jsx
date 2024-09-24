@@ -18,7 +18,7 @@ export default function Body({ search, cluster, city, space,arr}) {
                 <h3>Space: {ele.space_available}</h3>
                 <h3>Type: {ele.type}</h3>
                 <div style={{display:"flex",justifyContent:"end", color:"red"}}>
-                <Link to={`/${ele.name}`} style={{marginTop:"3vh"}}>More Details</Link>
+                <Link to={`/${ele.id}`} style={{marginTop:"3vh"}}>More Details</Link>
                 </div>
                 
             </Paper>;
