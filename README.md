@@ -40,7 +40,8 @@ Warehouse Details Page:
 
 Search Filter:
 
-![Annotation 2024-09-26 101528](https://github.com/user-attachments/assets/9b199905-8fc4-4d5e-b3e0-266a08bfb035)
+![Annotation 2024-09-26 101732](https://github.com/user-attachments/assets/48d6f967-2af1-4829-9539-135d70cfb510)
+
 
 
 ## Learning
