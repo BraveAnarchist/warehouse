@@ -29,15 +29,19 @@ This project implements a simple warehouse management system using ReactJS/VueJS
 
 Warehouse Listing Page:
 
-![alt text](<Annotation 2024-09-01 194031.png>)
+![Annotation 2024-09-26 101528](https://github.com/user-attachments/assets/0ba6ffcc-ee2a-458e-a821-9826a098c144)
+
 
 Warehouse Details Page:
 
-![alt text](./images/warehouse-details.png)
+![Annotation 2024-09-26 101528](https://github.com/user-attachments/assets/d9132513-61d0-491f-9e3e-d518588632d2)
+
+
 
 Search Filter:
 
-![alt text](./images/search-filter.png)
+![Annotation 2024-09-26 101528](https://github.com/user-attachments/assets/9b199905-8fc4-4d5e-b3e0-266a08bfb035)
+
 
 ## Learning
 
